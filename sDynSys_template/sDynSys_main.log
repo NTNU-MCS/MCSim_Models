@@ -1,0 +1,30 @@
+>>>>>>>>>>>>>>>>>>>>>> LOGFILE <<<<<<<<<<<<<<<<<<<<<<<<
+>>>> sDynSys/sDynSys/sDynSys_main 
+
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->SampleTime = -1.000
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->NumContStates = 3
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->NumDiscStates = 0
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->NumInputSignals = 1
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->NumOutputSignals = 4
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->NumParameters = 3
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[0].tag = 'A'
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[0].size = 4.
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[0].pvec[0] = 0.000
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[0].pvec[1] = 1.000
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[0].pvec[2] = -2.000
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[0].pvec[3] = -1.000
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[1].tag = 'mu'
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[1].size = 1.
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[1].pvec[0] = 0.030
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[2].tag = 'P'
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[2].size = 4.
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[2].pvec[0] = 8.525
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[2].pvec[1] = 2.875
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[2].pvec[2] = 2.875
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: SystemStruct->Param[2].pvec[3] = 3.175
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: There were 9 hits on 'System.Param' in file: sDynSys_param.ini.
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: There were 21 assignments made to parameter data structure.
+2014-11-05 15:38:55 sDynSys/sDynSys - Param2Struct: Successful configuration of parameters from input file: sDynSys_param.ini.
+
+
+DEBUG (2014-11-05 15:38:55):  1 sDynSys/sDynSys/sDynSys_main-mdlStart: Successful initialization of S-function in mdlStart. 

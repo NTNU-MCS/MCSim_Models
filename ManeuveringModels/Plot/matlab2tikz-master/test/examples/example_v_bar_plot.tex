@@ -1,0 +1,179 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\documentclass[tikz]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\usepackage{grffile}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{plotmarks}
+\usetikzlibrary{arrows.meta}
+\usepgfplotslibrary{patchplots}
+\usepackage{amsmath}
+
+\begin{document}
+\definecolor{mycolor1}{rgb}{0.20810,0.16630,0.52920}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=1.952in,
+height=3.566in,
+at={(0.758in,0.481in)},
+scale only axis,
+bar shift auto,
+xmin=0,
+xmax=80,
+xlabel style={font=\color{white!15!black}},
+xlabel={\#},
+ymin=10,
+ymax=80,
+ytick={18, 20, 21, 30, 35, 40, 45, 50, 55, 60, 65, 70},
+ylabel style={font=\color{white!15!black}},
+ylabel={parameter [units]},
+axis background/.style={fill=white},
+legend style={at={(0.03,0.97)}, anchor=north west, legend cell align=left, align=left, draw=white!15!black}
+]
+\addplot[xbar, bar width=0.8, fill=mycolor1, draw=black, area legend] table[row sep=crcr] {%
+0	18\\
+0	20\\
+2	21\\
+14	30\\
+34	35\\
+57	40\\
+65	45\\
+46	50\\
+9	55\\
+2	60\\
+1	65\\
+0	70\\
+};
+\addplot[forget plot, color=white!15!black] table[row sep=crcr] {%
+0	10\\
+0	80\\
+};
+\addlegendentry{Test Data}
+
+\end{axis}
+
+\begin{axis}[%
+width=1.952in,
+height=3.566in,
+at={(3.327in,0.481in)},
+scale only axis,
+bar shift auto,
+unbounded coords=jump,
+xmin=0,
+xmax=80,
+xtick={18, 20, 21, 30, 35, 40, 45, 50, 55, 60, 65, 70},
+xlabel style={font=\color{white!15!black}},
+xlabel={parameter [units]},
+ymin=0,
+ymax=80,
+ylabel style={font=\color{white!15!black}},
+ylabel={\#},
+axis background/.style={fill=white},
+legend style={at={(0.03,0.97)}, anchor=north west, legend cell align=left, align=left, draw=white!15!black}
+]
+\addplot[ybar, bar width=0.8, fill=mycolor1, draw=black, area legend] table[row sep=crcr] {%
+18	0\\
+20	0\\
+21	2\\
+30	14\\
+35	34\\
+40	57\\
+45	65\\
+50	46\\
+55	9\\
+60	2\\
+65	1\\
+70	0\\
+};
+\addplot[forget plot, color=white!15!black] table[row sep=crcr] {%
+0	0\\
+80	0\\
+};
+\addlegendentry{Test Data}
+
+\addplot [color=red, forget plot]
+  table[row sep=crcr]{%
+17.6	0\\
+17.6	78\\
+nan	nan\\
+18.4	0\\
+18.4	78\\
+nan	nan\\
+19.6	0\\
+19.6	78\\
+nan	nan\\
+20.4	0\\
+20.4	78\\
+nan	nan\\
+20.6	0\\
+20.6	78\\
+nan	nan\\
+21.4	0\\
+21.4	78\\
+nan	nan\\
+29.6	0\\
+29.6	78\\
+nan	nan\\
+30.4	0\\
+30.4	78\\
+nan	nan\\
+34.6	0\\
+34.6	78\\
+nan	nan\\
+35.4	0\\
+35.4	78\\
+nan	nan\\
+39.6	0\\
+39.6	78\\
+nan	nan\\
+40.4	0\\
+40.4	78\\
+nan	nan\\
+44.6	0\\
+44.6	78\\
+nan	nan\\
+45.4	0\\
+45.4	78\\
+nan	nan\\
+49.6	0\\
+49.6	78\\
+nan	nan\\
+50.4	0\\
+50.4	78\\
+nan	nan\\
+54.6	0\\
+54.6	78\\
+nan	nan\\
+55.4	0\\
+55.4	78\\
+nan	nan\\
+59.6	0\\
+59.6	78\\
+nan	nan\\
+60.4	0\\
+60.4	78\\
+nan	nan\\
+64.6	0\\
+64.6	78\\
+nan	nan\\
+65.4	0\\
+65.4	78\\
+nan	nan\\
+69.6	0\\
+69.6	78\\
+nan	nan\\
+70.4	0\\
+70.4	78\\
+nan	nan\\
+};
+\end{axis}
+\end{tikzpicture}%
+\end{document}

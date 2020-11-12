@@ -10,8 +10,7 @@
 %    Copyright (C) 2020: 	NTNU, Trondheim, Norway
 %    Licensed under GPL-3.0-or-later
 %    Created:  	<6-Nov-2020>	<Mathias Marley>
-%    Revised:	<date>	<author> <description>
-%
+%    Revised:	<12-Nov-2020>	<Mathias Marley> <Modified yaw added mass>
 
 %% Preliminaries
 clc; clear all; close all;
@@ -35,7 +34,7 @@ lr = L/4; %inertia radius in yaw
 Mrb = diag([m m m*lr^2]); %Rigid body mass matrix
 a11 = 0.05*m; %added mass surge [kg] 
 a22 = 0.3*m; %added mass sway [kg] 
-a33 = a22*L^2/4; %total yaw inertia (rigid body + added mass)
+a33 = a22*lr^2; %total yaw inertia (rigid body + added mass)
 Ma = diag([a11 a22 a33]); %Added mass matrix
 
 % Calculated damping coefficients

@@ -1,0 +1,9 @@
+
+This RAO has been developed in the 2021 Master thesis of Anna Holm Gjeraker, Department of Marine Technology, NTNU.
+
+Reference for use in academic works (and other publications):
+
+Gjeraker, A. H. (2021) "Response Amplitude Operator Estimation and Wave Modeling Sensitivity." NTNU Master thesis, Trondheim, Norway.
+
+
+
